@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 1.5rem 3rem;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.link {
+    color: var(--gray);
+}
+
+.link:hover {
+    color: var(--white);
+    transition: 0.4s all;
+}
