@@ -21,3 +21,20 @@
     color: var(--white);
     transition: 0.4s all;
 }
+
+.header-drawer {
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .links {
+        display: none;
+    }
+
+    .header-drawer {
+        display: block;
+    }
+
+  }
