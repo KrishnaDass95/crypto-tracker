@@ -1,3 +1,4 @@
+import AnchorTemporaryDrawer from "./drawer"
 import "./style.css"
 
 const Header = () => {
@@ -15,6 +16,7 @@ const Header = () => {
             <a href="/"><p className="link">Watchlist</p></a>
             <a href="/"><p className="link">Dashboard</p></a>
         </div>
+        <AnchorTemporaryDrawer />
             
         </div>
     )
