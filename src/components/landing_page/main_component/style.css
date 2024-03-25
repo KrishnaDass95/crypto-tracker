@@ -26,4 +26,5 @@
 
 .track-crypto-heading:hover {
     color: var(--black);
+    transition: all 0.5s;
 }
