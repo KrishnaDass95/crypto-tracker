@@ -1,0 +1,29 @@
+
+
+.hero-component {
+    margin: 2rem 3rem;
+}
+
+.track-crypto-heading, .real-time-heading {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.info-text {
+    color: var(--gray)
+}
+
+.flex-buttons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.track-crypto-heading {
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: var(--white)
+}
+
+.track-crypto-heading:hover {
+    color: var(--black);
+}
