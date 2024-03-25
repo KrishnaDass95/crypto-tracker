@@ -15,7 +15,7 @@ const Header = () => {
             <a href="/"><p className="link">Home</p></a>
             <a href="/"><p className="link">Compare</p></a>
             <a href="/"><p className="link">Watchlist</p></a>
-            <Button outlined={true} text={"Dashboard"} onClick={() => console.log("clicked dashboard btn")}/>
+            <Button outlined={false} text={"Dashboard"} onClick={() => console.log("clicked dashboard btn")}/>
         </div>
         <div className="header-drawer">
         <AnchorTemporaryDrawer />
